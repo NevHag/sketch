@@ -19,14 +19,14 @@ let cx, cy;
 let buffer;
 
 function setup() {
-  createCanvas(600, 350);
+  createCanvas(1200, 1200);
   //Issue with wrong rendering on a retina Mac. See issue: https://github.com/CodingTrain/website/issues/574
   pixelDensity(1);
   a1 = PI / 2;
   a2 = PI / 2;
   cx = width / 2;
   cy = 50;
-  buffer = createGraphics(width, height);
+  buffer = createGraphics(height, 600);
   buffer.background(250);
   buffer.translate(cx, cy);
 }
