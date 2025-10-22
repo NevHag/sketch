@@ -25,8 +25,8 @@ function setup() {
   a1 = PI / 2;
   a2 = PI / 2;
   cx = width / 2;
-  cy = 50;
-  buffer = createGraphics(height, 600);
+  cy = height / 2;
+  buffer = createGraphics(width, height);
   buffer.background(250);
   buffer.translate(cx, cy);
 }
