@@ -19,7 +19,7 @@ let cx, cy;
 let buffer;
 
 function setup() {
-  createCanvas(1200, 1200);
+  createCanvas(1000, 1000);
   //Issue with wrong rendering on a retina Mac. See issue: https://github.com/CodingTrain/website/issues/574
   pixelDensity(1);
   a1 = PI / 2;
